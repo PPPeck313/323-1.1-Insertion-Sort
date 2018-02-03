@@ -41,21 +41,39 @@ yes no<br />
 
 OUTPUT<br />
 listHead --> (dummy, you) --> (you, null)<br />
+
 listHead --> (dummy, I) --> (I, you) --> (you, null)<br />
+
 listHead --> (dummy, he) --> (he, I) --> (I, you) --> (you, null)<br />
+
 listHead --> (dummy, he) --> (he, I) --> (I, she) --> (she, you) --> (you, null)<br />
+
 listHead --> (dummy, are) --> (are, he) --> (he, I) --> (I, she) --> (she, you) --> (you, null)<br />
+
 listHead --> (dummy, are) --> (are, he) --> (he, I) --> (I, is) --> (is, she) --> (she, you) --> (you, null)<br />
+
 listHead --> (dummy, are) --> (are, he) --> (he, I) --> (I, is) --> (is, she) --> (she, was) --> (was, you) --> (you, null)<br />
+
 listHead --> (dummy, am) --> (am, are) --> (are, he) --> (he, I) --> (I, is) --> (is, she) --> (she, was) --> (was, you) --> (you, null)<br />
+
 listHead --> (dummy, am) --> (am, are) --> (are, he) --> (he, I) --> (I, is) --> (is, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
+
 listHead --> (dummy, am) --> (am, are) --> (are, he) --> (he, I) --> (I, is) --> (is, of) --> (of, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
+
 listHead --> (dummy, am) --> (am, and) --> (and, are) --> (are, he) --> (he, I) --> (I, is) --> (is, of) --> (of, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
+
 listHead --> (dummy, am) --> (am, and) --> (and, are) --> (are, he) --> (he, I) --> (I, if) --> (if, is) --> (is, of) --> (of, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
+
 listHead --> (dummy, am) --> (am, and) --> (and, are) --> (are, he) --> (he, I) --> (I, if) --> (if, is) --> (is, of) --> (of, or) --> (or, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
+
 listHead --> (dummy, am) --> (am, and) --> (and, are) --> (are, he) --> (he, him) --> (him, I) --> (I, if) --> (if, is) --> (is, of) --> (of, or) --> (or, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
-listHead --> (dummy, a) --> (a, am) --> (am, and) --> (and, are) --> (are, he) --> (he, him) --> (him, I) --> (I, if) --> (if, is) --> (is, of) --> (of, or) --> (or, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)
+
+listHead --> (dummy, a) --> (a, am) --> (am, and) --> (and, are) --> (are, he) --> (he, him) --> (him, I) --> (I, if) --> (if, is) --> (is, of) --> (of, or) --> (or, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
+
 listHead --> (dummy, a) --> (a, am) --> (am, an) --> (an, and) --> (and, are) --> (are, he) --> (he, him) --> (him, I) --> (I, if) --> (if, is) --> (is, of) --> (of, or) --> (or, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
+
 listHead --> (dummy, a) --> (a, am) --> (am, an) --> (an, and) --> (and, are) --> (are, he) --> (he, him) --> (him, I) --> (I, if) --> (if, is) --> (is, of) --> (of, one) --> (one, or) --> (or, she) --> (she, was) --> (was, were) --> (were, you) --> (you, null)<br />
+
 listHead --> (dummy, a) --> (a, am) --> (am, an) --> (an, and) --> (and, are) --> (are, he) --> (he, him) --> (him, I) --> (I, if) --> (if, is) --> (is, of) --> (of, one) --> (one, or) --> (or, she) --> (she, was) --> (was, were) --> (were, yes) --> (yes, you) --> (you, null)<br />
+
 listHead --> (dummy, a) --> (a, am) --> (am, an) --> (an, and) --> (and, are) --> (are, he) --> (he, him) --> (him, I) --> (I, if) --> (if, is) --> (is, no) --> (no, of) --> (of, one) --> (one, or) --> (or, she) --> (she, was) --> (was, were) --> (were, yes) --> (yes, you) --> (you, null)<br />
