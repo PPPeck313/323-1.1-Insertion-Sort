@@ -1,9 +1,9 @@
 # 323-1.1-Insertion-Sort<br />
-CSC 323-32: Project 1.1 (C++/Java)<br />
-Preston Peck<br />
-Due date: Sept. 6, 2016<br />
+### CSC 323-32: Project 1.1 (C++/Java)<br />
+### Preston Peck<br />
+### Due date: Sept. 6, 2016<br />
 
-**** Algorithm steps for linked list insertion sort:<br />
+#### **** Algorithm steps for linked list insertion sort:<br />
 
 Step 0: prepare the skeleton of your program, including classes, etc.<br />
 
@@ -24,7 +24,7 @@ Step 7: call printList (C CwordlistHead)<br />
 Step 8: repeat step 3 to step 7 until the inFile1 is empty<br />
 
 
-**** Algorithm steps for findSpot (listHead, data):<br />
+#### **** Algorithm steps for findSpot (listHead, data):<br />
 
 Step 1: spot <-- listHead<br />
 
@@ -35,13 +35,13 @@ Step 3: repeat step 2<br />
 
 Step 4: return spot<br />
 
-**** Algorithm steps for listInsert (Spot, newNode)<br />
+#### **** Algorithm steps for listInsert (Spot, newNode)<br />
 
 Step 1: newNode <-- Spot.next<br />
 
 Step 2: Spot.next <-- newNode <br />
 
-INPUT<br />
+### INPUT<br />
 you<br />
 I he she<br />
 are is<br />
@@ -50,7 +50,7 @@ of and if or<br />
 him a an one<br />
 yes no<br />
 
-OUTPUT<br />
+### OUTPUT<br />
 listHead --> (dummy, you) --> (you, null)<br />
 
 listHead --> (dummy, I) --> (I, you) --> (you, null)<br />
